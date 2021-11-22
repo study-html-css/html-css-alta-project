@@ -1,0 +1,252 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* MY CSS */
+
+body {
+  font: 16px/28px arial, sans-serif;
+  color: navy;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header img {
+  padding-left: 130px;
+}
+.icon-atas {
+  text-align: end;
+  padding-right: 110px;
+  margin-top: -55px;
+}
+
+.header ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.header ul li a {
+  text-decoration: none;
+  color: navy;
+}
+
+.header ul li a:hover {
+  color: orange;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  background: transparent;
+  border: 2px solid orange;
+  margin-top: 13px;
+  color: orange;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: orange;
+  transition: color 0.3s ease;
+  color: white;
+}
+.btn a {
+  color: orange;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+.btn a:hover {
+  color: white;
+}
+
+.navigasi {
+  font-size: 40px;
+  text-align: center;
+  margin: 50px;
+  font-weight: bold;
+}
+.navigasi h2 b {
+  color: orange;
+}
+
+.background {
+  height: 400px;
+  background-image: url(/img_blog.jpg);
+  background-size: cover;
+}
+
+.judul {
+  font-size: 40px;
+  margin-left: 130px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.penulis {
+  margin-left: 130px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.paragraf {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+p {
+  padding-top: 20px;
+}
+
+.footer {
+  margin-top: 130px;
+  background-color: rgb(28, 28, 146);
+  padding: 40px;
+}
+.logo {
+  padding-left: 110px;
+}
+
+.sosial-media {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  margin-top: -75px;
+}
+.footer ul {
+  padding-left: 600px;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.copyright {
+  font-size: 12px;
+  color: white;
+  text-align: end;
+  padding-right: 130px;
+  margin-top: -45px;
+}
